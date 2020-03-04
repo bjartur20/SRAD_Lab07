@@ -8,3 +8,6 @@ def test_divisible_by_five_not_three():
 
 def test_divisible_by_three_not_five():
     assert sample.fizz_buzz(3) == 'Buzz'
+
+def test_divisible_by_three_and_five():
+    assert sample.fizz_buzz(15) == 'FizzBuzz'
